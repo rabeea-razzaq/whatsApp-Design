@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+.navSection{
+    background:#1ebea5;
+     height:90px;
+     display: flex;
+     position: fixed;
+     width: 100%
+}
+.frontSection{
+     height:600px;
+     display: flex;
+     padding-top: 110px !important;
+}
+.featureSection{
+     height:auto;
+}
+.exploreSection{
+    
+     height:auto;
+}
+.linksSection{
+    background-color: #273443;
+     height:auto;
+}
+.footer{
+     height:auto;
+}
+#brandLogo{
+  
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+#leftNav{
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  color: white
+}
+#rightNav{
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+#rightNav a{
+  color: white;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#frontLeft{
+flex: 1;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end
+
+}
+#frontRight{
+  flex: 1;
+height: 100%;
+display: flex;
+justify-content: flex-start
+}
+#mobileImage{
+  background: url(https://static.whatsapp.net/rsrc.php/v3/yU/r/aIUMc-wmaFw.png)  no-repeat ;
+  background-size: contain;
+  height: 100%;
+  width: 100%
+}
+#frontLeftContent{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frontHeading{
+
+  font-size: 33px;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+.normalFont{
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+.lightfont{
+  color: #bbb;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.iconElement{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  margin-bottom: 8px;
+  color: #1ebea5;
+}
+.iconElement p{
+  flex:1 140px;
+}
+.iconElement img{
+  flex:1 30px;
+}
+.featureSection{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     margin-top: 20px;
+     
+}
+.buisnesssection{
+  background-color: #d0e9ea;
+  height: 100%;
+  flex: 0 1 48%;
+  display: flex;
+  justify-content: center;
+
+}
+.buisnesscontent{
+  width: 80%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentimge{
+  background: url(https://static.whatsapp.net/rsrc.php/v3/yj/r/Oez5RbmaDWV.png)   no-repeat;
+  background-size: contain;
+  background-position: 50% 0%;
+  width: 100%;
+  height:400px;
+}
+.heading{
+  margin-top:50px;
+  margin-bottom: 20px; 
+  font-size:24px;
+  font-weight: lighter;
+  color: rgb(17, 17, 17);
+
+}
+.paragraph{
+  font-size:14px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(17, 17, 17);
+  line-height: 20px;
+
+}
+.paragraph a{
+  color: rgb(21, 185, 185);
+}
+
+.encryptionsection{
+  background-color: rgb(210, 224, 222);
+  height: auto !important;
+  flex:0 1 48%;
+  display: flex;
+  justify-content: center;
+  
+}
+.encryptioncontent{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.animation{
+  margin-top:50px;
+  margin-bottom: 15px;
+}
+.encryptionheading p{
+   font-size: 11px;
+   color: rgb(32, 32, 32);
+   line-height: 9px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+.defaultheading p{
+  color: rgb(32, 32, 32);
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 15px;
+   padding-top:10px;
+   padding-bottom: 15px;
+}
+.encryptionparagph p{
+  color: rgb(32, 32, 32);
+  line-height: 20px;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.exploreSection{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+}
+.exploremain{
+  min-width: 16%;
+  height: 50px;
+  border:2px solid #1ebea5;
+  border-radius: 100px;
+ text-align:center;
+ padding: 10px; 
+}
+.exploremain a{
+  color: #1ebea5;
+  margin-top:15px;
+  min-width: 100%;
+  display: block;
+
+}
+.linksSection{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.linksmain{
+  width: 85%;
+  background-color:#273443;
+  display: flex;
+  justify-content: space-around;
+
+ 
+
+}
+
+.whatsapp a{
+    padding: 5px;
+   
+    color: #fff;
+}
+.download a{
+  padding: 5px;
+  
+  color: #fff;
+}
+.company a{
+  padding: 5px;
+  
+  color: #fff;
+}
+.help a{
+  padding: 5px;
+ 
+  color: #fff;
+}
+.whatsapp,.company,.download,.help{
+  display: flex;
+  flex-direction: column;
+  width: 17%;
+  padding-top: 3%
+}
+.footer{
+  background-color: rgb(36, 39, 48);
+  display: flex;
+}
+.part1{
+  
+  flex: 1 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding:20px;
+  color:rgb(138, 135, 135);
+  
+  
+}
+.part2 {
+  flex: 2 70%;
+  padding: 20px;
+  
+}
+.part2 a{
+  color:rgb(138, 135, 135);
+  margin-left:80px;
+}
+.first{
+  color:rgb(138, 135, 135) !important;
+  padding-bottom: 8px !important;
+  
+}
+.whole{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#toggle
+{
+  display: none;
+}
+.responsivedesign{
+  display: none;
+}
+.togglearea{
+  display:none;
+}
+@media(max-width:1038px){
+  .navSection{
+    flex-wrap:wrap;
+    height: auto;
+  }  
+  #leftNav{
+    flex:1 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin:10px;
+  }
+  #rightNav{
+    flex:1 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .frontSection{
+    padding-top:150px !important;
+  }
+}
+@media (max-width:768px) {
+  .navSection{
+    flex-direction: column;
+    position:relative;
+    height: auto;
+    align-items: center;
+  }
+  #leftNav{
+    flex:1 100%;
+    justify-content: center;
+    height: 200px;
+    order: 1;
+    padding: 0px;
+    margin: 0px;  
+  }
+  #leftNav p{
+    display: none;
+  }
+  #brandLogo img{
+    width: 100px !important;
+    height: 100px !important;
+    
+    margin:0px;
+  }
+  .brandlogo{
+    margin-bottom: 10px;
+  }
+  #rightNav{
+    margin-top: 20px;
+    flex:1 100%;
+    flex-direction: column;
+    height: auto;
+    display: none;
+    align-items: flex-start;
+    width: 90%;
+    align-self: flex-end;
+    
+  }
+  
+  #toggle:checked + #rightNav{
+    display: flex !important;
+
+  }
+  #rightNav a{
+    padding:10px;
+    margin: 5px;
+    border-radius:5px;
+    border-bottom: 1px solid whitesmoke;
+    width: 90%;
+  }
+  
+  
+  .togglearea{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 4px;
+    align-self: flex-end;
+  }
+  i{
+    cursor: pointer;
+    color: white
+  }
+  .responsivedesign{
+    width: 90%;
+    order:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+  }
+  .responsiveheading p{
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .responsivepara p{
+     padding-top: 5px;
+     font-size:15px;
+     text-align: center;
+
+  }
+  .responsivebutton{
+   min-width: 26%;
+    height: 45px;;
+    background-color:#01e675;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 25px;
+  }
+  .responsivebutton a{
+    min-width:100%;
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+
+  }
+  
+  .responsivelogo img{
+     width: 300px;
+     height: 400px;
+  }
+  .responsivelogo{
+    margin-top: 45px;
+    height: 300px;
+    overflow: hidden;
+  }
+  .frontSection{
+    display: none;
+  }
+  .featureSection{
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+  .buisnesssection{
+    flex: 1 100%;
+  }
+  .encryptionsection{
+    flex:1 100%;
+  }
+  .exploreSection{
+    padding: 20px;
+
+  }
+  .linksmain{
+    flex-wrap: wrap;
+  }
+  .whatsapp,.company,.download,.help{
+    flex: 1 40%;
+  }
+  
+}
